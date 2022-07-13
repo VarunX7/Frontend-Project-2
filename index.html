@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" media="screen and (max-width:450px)" href="styles/phone.css">
+</head>
+<body>
+    <div id="preloader">
+
+        <span>Welcome Gamer</span>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        
+    </div>
+    
+    <nav id="navbar">
+
+        <div id="logo">Game_Pub</div>    
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#partners">Partners</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>    
+
+    </nav>
+    
+    <section id="home">
+
+        <h1>The Savviest Gaming Community</h1>
+ 
+        <button id="join">Join Now</button>
+        
+        <a href = '#services' id="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+ 
+    </section>
+    
+    <section id="services">
+
+        <h1>services</h1>
+ 
+        <p id="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem neque tempore, corporis excepturi earum eveniet! Mollitia ipsa delectus dignissimos harum?</p>
+        <p id="para2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae obcaecati veniam quisquam ea voluptate maxime </p>
+ 
+        <div id="container">
+ 
+            <a href="#" class="box" id="box1"><h1>streams</h1><p>Watch live streams of your favourite games</p></a>
+
+            <a href="#" class="box" id="box2"><h1>Shop</h1><p>Buy exclusive merchandise and gadgets</p></a>
+ 
+            <div id="container2">
+                <div class="box" id="box3"><a href="#"><h1>Register</h1></a><p>Get exclusive offers on the latest games</p></div>
+             </div>
+ 
+         </div>
+ 
+     </section>
+
+     <section id="partners">
+
+        <h1>partners</h1>
+        <div id="container3">
+
+            <img src="img/apple.png" alt="" class="partner" id="p1">
+            <img src="img/hp.png" alt="" class="partner" id="p2">
+            <img src="img/psp.png" alt="" class="partner" id="p3">
+            <img src="img/utd.png" alt="" class="partner" id="p4">
+
+        </div>
+     </section>
+
+     <section id="contact">
+
+        <h1>Contact &nbspus</h1>
+
+        <div class="dv" id="dv1">let's colaborate</div>
+
+        <div class="dv" id="dv2">dummymail@site.com</div>
+
+        <div class="dv" id="dv3">+91-1234567890</div>
+
+        <div class="form" id="f1">
+            <input type="text" placeholder="Name">
+        </div>
+        
+        <div class="form" id="f2">
+            <input type="email" placeholder="e-mail">
+        </div>
+        
+        <div class="form" id="f3">
+            <input type="number" placeholder="Phone number">
+        </div>
+        
+        <div class="form" id="f4"> 
+            <textarea name="myText" cols="90" rows="10" placeholder="Messsage"></textarea>
+        </div>
+
+        <div class="form" id="f5">
+            <button>Send Messsage</button>
+        </div>
+
+    </section>
+
+    <footer>
+        <img id='f_logo'src="img/logo_main.png" alt="">
+
+        <p>copyright © Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, corporis!</p>
+
+        <div id="img_box">
+            <a class="ibox" id='b1' href="#"><img src="img/twitter.png" alt=""></a>
+            <a class="ibox" id='b2' href="#"><img src="img/fb.png" alt=""></a>
+            <a class="ibox" id='b3' href="#"><img src="img/insta.png" alt=""></a>
+        </div>
+
+    </footer>
+
+</body>
+
+<script>
+
+    let  preloader = document.getElementById('preloader');
+    
+    function load(){
+        preloader.style.display = 'none';
+    }
+    
+    setTimeout(load, 4000);
+    
+</script>
+
+</html>
